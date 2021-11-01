@@ -1,0 +1,56 @@
+/* variable decleration */
+
+$main-color:#2098D1;
+$secondary-color:#ececec;
+//
+// $box-1-color:#f54d42;
+// $box-2-color:#069889;
+// $box-3-color:#1fb2f5;
+
+/* we use the css vars because we will nested the vars with each other and that can't happen with only sass*/
+
+:root {
+    --box-1: #f54d42;
+    --box-2: #069889;
+    --box-3: #1fb2f5;
+}
+
+
+/* resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    caret-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    li,
+    p {
+        font-size: 13px;
+    }
+}
