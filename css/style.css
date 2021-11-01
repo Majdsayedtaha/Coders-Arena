@@ -861,7 +861,7 @@ header .container .nav li .mega-menu .image img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  gap: 30px;
+  gap: 3rem;
   margin: auto 0px;
 }
 
